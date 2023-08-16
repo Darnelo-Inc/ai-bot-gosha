@@ -1,0 +1,17 @@
+@import "../vars";
+
+.header {
+  font-family: $sans;
+  line-height: 1.55;
+  color: $white;
+}
+
+.header__title {
+  font-size: 5.769rem;
+  font-weight: 700;
+}
+
+.header__subtitle {
+  font-size: 1.821rem;
+  font-weight: 400;
+}
