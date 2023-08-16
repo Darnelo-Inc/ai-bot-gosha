@@ -1,0 +1,47 @@
+@import "../vars";
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  padding: 2rem;
+  margin: 0 auto 3.8rem;
+
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.message-text {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+
+  &--user {
+    color: $white;
+    background-color: $blue;
+  }
+
+  &--bot {
+    color: $black;
+    background-color: $light-blue;
+  }
+}
+
+.user__msg {
+  flex-direction: row-reverse;
+}
