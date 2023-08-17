@@ -1,6 +1,6 @@
 import ChatWindow from "./components/ChatWindow"
 import Header from "./components/Header"
-import TypeLine from "./components/TypeLine"
+// import TypeLine from "./components/TypeLine"
 import "./scss/index.scss"
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <div className="container">
         <Header />
         <ChatWindow />
-        <TypeLine />
+        {/* <TypeLine /> */}
       </div>
     </div>
   )

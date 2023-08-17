@@ -38,7 +38,7 @@ a {
 }
 
 .container {
-  @include hundo-size($container-size);
+  @include hundo-sz($container-sz);
   margin: 0 auto;
-  padding: 5.7rem 0;
+  padding: 2.5rem 0;
 }
