@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit"
-import { chatApi } from "./Api/chatApi"
+import { chatApi } from "../api/chatApi"
 import { useDispatch } from "react-redux"
 
 const store = configureStore({

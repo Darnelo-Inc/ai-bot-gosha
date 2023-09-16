@@ -1,5 +1,5 @@
 import { FC, useState, useEffect } from "react"
-import { useSendMessageMutation } from "../store/Api/chatApi"
+import { useSendMessageMutation } from "../api/chatApi"
 import styles from "../scss/modules/ChatWindow.module.scss"
 import TypeLine from "./TypeLine"
 
