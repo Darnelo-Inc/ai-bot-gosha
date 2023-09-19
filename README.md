@@ -5,6 +5,6 @@
 React / 
 TypeScript / 
 SCSS / 
-Redux toolkit /
+Redux Toolkit /
 RTK Query /
 Vite
